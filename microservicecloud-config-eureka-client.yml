@@ -4,11 +4,11 @@
     - dev
 ---
 server:
-  prot: 7001 #注册中心占用7001端口
+  port: 7001
 
 spring:
   profiles: dev
-  application: 
+  application:
     name: microservicecloud-config-eureka-client
     
 eureka:
@@ -21,7 +21,7 @@ eureka:
       defaultZone: http://eureka7001.com:7001/eureka/
 ---
 server:
-  prot: 7001 #注册中心占用7001端口
+  port: 7001
 
 spring:
   profiles: test
